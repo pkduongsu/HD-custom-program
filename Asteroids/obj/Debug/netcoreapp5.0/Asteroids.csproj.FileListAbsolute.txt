@@ -1,0 +1,16 @@
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.exe
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.deps.json
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.runtimeconfig.json
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.runtimeconfig.dev.json
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.dll
+C:\Asteroids\bin\Debug\netcoreapp5.0\Asteroids.pdb
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.csproj.AssemblyReference.cache
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.GeneratedMSBuildEditorConfig.editorconfig
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.AssemblyInfoInputs.cache
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.AssemblyInfo.cs
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.csproj.CoreCompileInputs.cache
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.dll
+C:\Asteroids\obj\Debug\netcoreapp5.0\refint\Asteroids.dll
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.pdb
+C:\Asteroids\obj\Debug\netcoreapp5.0\Asteroids.genruntimeconfig.cache
+C:\Asteroids\obj\Debug\netcoreapp5.0\ref\Asteroids.dll
