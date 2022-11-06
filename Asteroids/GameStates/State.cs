@@ -9,13 +9,20 @@ namespace Asteroids.GameStates
 {
     public abstract class State
     {
+        private GameManager _game;
 
         public State()
         {
-
+            _game = GameManager.Instance;
         }
 
-        public abstract GameState Update();
+        public GameManager Game
+        {
+            get { return _game;  }
+        }
+        
+        public abstract GameState ChangeState();
 
+        public abstract void Update();
     }
 }

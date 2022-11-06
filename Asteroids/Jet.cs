@@ -12,6 +12,7 @@ namespace Asteroids
     {
         private int _health;
         private int _score;
+        private int _gunLevel;
         private Velocity _velocity;
         
         public Jet(Bitmap img) : base(img) 
@@ -20,6 +21,7 @@ namespace Asteroids
             _score = 0;
             _velocity.X = 0;
             _velocity.Y = 0;
+            _gunLevel = 1; //default gun level
         }
 
         public int Health 
@@ -32,6 +34,12 @@ namespace Asteroids
         { 
             get { return _score; } 
             set { _score = value; }
+        }
+
+        public int GunLevel
+        {
+            get { return _gunLevel; }
+            set { _gunLevel = value; }
         }
 
         public void Move(float posX, float posY)
@@ -57,5 +65,6 @@ namespace Asteroids
             aBullet.PlaySound();
             return aBullet;
         }
+
     }
 }

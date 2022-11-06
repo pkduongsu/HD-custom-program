@@ -9,22 +9,22 @@ namespace Asteroids.GameStates
 {
     public class EndState : State
     {
+
         public EndState() : base()
         {
 
         }
+        public override void Update()
+        {
+            Game.EndSetup();
+        }
 
-        public override GameState Update()
-        { 
-            SplashKit.DrawBitmap(SplashKit.BitmapNamed("GameOver"), 0, 0);
-            SplashKit.ShowMouse();
-
-            GameManager.Instance.EndButton.Draw();
-
-            if (GameManager.Instance.EndButton.Clicked())
+        public override GameState ChangeState()
+        {
+            if (Game.EndButton.Clicked())
             {
-                 GameManager.Instance.ResetGame();
-                 return GameState.Ingame;
+                Game.ResetGame();
+                return GameState.Ingame;
             }
             return GameState.End;
         }

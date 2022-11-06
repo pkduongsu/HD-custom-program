@@ -19,7 +19,7 @@
 
         public void Update()
         {
-            _state =  _currentState.Update();
+            _state =  _currentState.ChangeState();
             switch (_state)
             {
                 case GameState.Start:
@@ -32,6 +32,7 @@
                     _currentState = _end;
                     break;
             }
+            _currentState.Update();
 
         }
     }

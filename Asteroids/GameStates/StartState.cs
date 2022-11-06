@@ -8,20 +8,21 @@ using System.Threading.Tasks;
 namespace Asteroids.GameStates
 { 
     public class StartState : State
-    {   
+    { 
         public StartState() : base()
         {
 
         }
-        public override GameState Update()
+        public override void Update()
         {
-            SplashKit.DrawBitmap(SplashKit.BitmapNamed("StartImage"), 0, 0);
-            SplashKit.DrawText("Asteroids", Color.Brown, SplashKit.FontNamed("scoreFont"), 100, 150, 0);
-            GameManager.Instance.StartButton.Draw();
+            Game.StartSetup();
+        }
 
-            if (GameManager.Instance.StartButton.Clicked())
+        public override GameState ChangeState()
+        {
+            if (Game.StartButton.Clicked())
             {
-                  return GameState.Ingame;
+                return GameState.Ingame;
             }
             return GameState.Start;
         }

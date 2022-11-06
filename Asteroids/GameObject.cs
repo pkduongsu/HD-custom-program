@@ -48,6 +48,5 @@ namespace Asteroids
         {
             return SplashKit.BitmapCollision(Image, X, Y, asteroid.Image, asteroid.X, asteroid.Y);
         }
-
     }
 }

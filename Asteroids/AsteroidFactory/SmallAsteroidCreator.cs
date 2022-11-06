@@ -11,7 +11,7 @@ namespace Asteroids.AsteroidFactory
     {
         public override Asteroid CreateAsteroid()
         {
-            return new SmallAsteroid();
+            return new SmallAsteroid(SplashKit.BitmapNamed("Asteroid")) as Asteroid;
         }
     }
 }

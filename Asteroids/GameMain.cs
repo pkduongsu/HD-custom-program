@@ -16,6 +16,7 @@ namespace Asteroids
             SplashKit.LoadBitmap("Bullet", "C:\\Asteroids\\images\\bullet.png");
             SplashKit.LoadBitmap("Heart", "C:\\Asteroids\\images\\heart.png");
             SplashKit.LoadBitmap("Jet", "C:\\Asteroids\\images\\jetfighter.png");
+            SplashKit.LoadBitmap("Ammo", "C:\\Asteroids\\images\\ammo.png");
             SplashKit.LoadBitmap("Space", "C:\\Asteroids\\images\\space.jpg");
             SplashKit.LoadBitmap("StartImage", "C:\\Asteroids\\images\\startimage.jpeg");
             SplashKit.LoadBitmap("ResetButton", "C:\\Asteroids\\images\\resetbutton.png");
@@ -37,7 +38,7 @@ namespace Asteroids
             {
                 SplashKit.ProcessEvents();
 
-                game.StateManager.Update();
+                game.Run();
 
                 SplashKit.RefreshScreen(60);
                 SplashKit.ClearScreen();
