@@ -8,3 +8,5 @@ This program extends the D custom program, in both functionality and design. Thi
 
 The game logic will be managed through GameManager, while states and operations will be managed through StateManager.
 I have Implemented the Factory Method design pattern for creating asteroids and buffs, while States was managed using the State pattern. Also, I have implemented Singleton pattern for the GameManager.
+
+![image](https://github.com/user-attachments/assets/71f519f0-6974-48a5-981a-9dd8b82dabc5)
